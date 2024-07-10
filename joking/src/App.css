@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container for joke components */
+.container {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Setup and Punchline styling */
+.setup, .punchline {
+  margin-bottom: 20px;
+}
+
+/* Styling for setup text */
+.setup h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+/* Styling for punchline text */
+.punchline h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+/* Button styling */
+.nextbutton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nextbutton:hover {
+  background-color: #0056b3;
+}
+
+.nextbutton:focus {
+  outline: none;
+}
